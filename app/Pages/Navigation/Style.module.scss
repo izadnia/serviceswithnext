@@ -1,0 +1,30 @@
+.NavigationBar {
+  width: 100%;
+  .NavigationSection {
+    position: fixed;
+    width: 850px;
+    background-color: cornflowerblue;
+    bottom: 0rem;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    @media (max-width: 900px) {
+      width: 100%;
+    }
+  }
+}
+
+.ItemTile {
+    font-size: 0.7rem;
+  color: white;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding-bottom: 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  .Icon {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+}
