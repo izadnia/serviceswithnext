@@ -53,7 +53,7 @@ function Categories({ data }: { data: dataProps[] }) {
     );
   }
   return (
-    <div className={`flex pb-2 overflow-scroll`}>
+    <div className={`flex pb-2 overflow-x-scroll`}>
       <ContainerEL category={null}>ALL</ContainerEL>
       {data.map((item, index) => (
         <ContainerEL key={index} category={item.category}>
