@@ -30,8 +30,9 @@ function page() {
   console.log(ServicesData);
   return (
     <div className="flex w-full justify-evenly flex-wrap">
-      {ServicesData.map((item) => (
+      {ServicesData.map((item, index) => (
         <IconStyle
+          key={index}
           backgroundColor={item.backgroundColor}
           title={item.title}
           id={item.id}
