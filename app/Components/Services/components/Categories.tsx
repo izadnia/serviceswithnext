@@ -39,7 +39,7 @@ function Categories({ data }: { data: dataProps[] }) {
         p-2
         w-[6rem]
         rounded-3xl
-        m-auto
+        m-2
         flex
         justify-around
       
@@ -53,7 +53,7 @@ function Categories({ data }: { data: dataProps[] }) {
     );
   }
   return (
-    <div className="flex w-full justify-evenly">
+    <div className={`flex pb-2 overflow-scroll`}>
       <ContainerEL category={null}>ALL</ContainerEL>
       {data.map((item, index) => (
         <ContainerEL key={index} category={item.category}>

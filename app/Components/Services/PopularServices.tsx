@@ -22,7 +22,7 @@ function PopularServices({ data }: { data: dataProps[] }) {
   const selectedCategory = searchParams.get("category");
 
   return (
-    <div>
+    <div className="w-full">
       <Categories data={data} />
       <div className="mt-2 flex flex-wrap justify-evenly ">
         {selectedCategory != null
