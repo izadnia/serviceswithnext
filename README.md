@@ -3,6 +3,8 @@ Small Practice with the next JS
 ## Preview
 https://serviceswithnext.vercel.app/
 
+## Please Complete read me in order to understand & collaborate on the project. Thank you Ramin
+
 ## Intro
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
