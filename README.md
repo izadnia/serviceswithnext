@@ -1,5 +1,5 @@
 # serviceswithnext
-Small Practice with the next JS 
+Small Practice with the next JS / Good Luck bro Please write readme :) 
 ## Preview
 https://serviceswithnext.vercel.app/
 
